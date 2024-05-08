@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 4.5rem;
+
+  /* width: 100%; */
+}
+
+.header img {
+  width: 7.875rem;
+  height: 3rem;
+}

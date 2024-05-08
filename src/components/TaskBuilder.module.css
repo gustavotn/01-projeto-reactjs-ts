@@ -1,0 +1,48 @@
+.taskBuilder {
+  display: flex;
+  gap: 1rem;
+}
+
+.taskBuilder input {
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.taskBuilder input:focus {
+  border: 1px solid var(--purple-400);
+}
+
+.taskBuilder button {
+  padding: 1rem;
+  background-color: var(--blue-600);
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+
+  border: 0;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.taskBuilder button:hover:enabled {
+  background-color: var(--blue-400);
+  cursor: pointer;
+}
+
+.taskBuilder button:disabled {
+  cursor: not-allowed;
+}
+
+.plus {
+  color: var(--gray-100);
+  font-size: 1rem;
+} 
